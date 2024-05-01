@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebScrapper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/base/base.css')}}" type="text/css">
+</head>
+<body>
+    <nav>
+        <div class="icono">
+            <img src="{{ url_for('static', filename='img/') }}" alt="">
+        </div>
+
+        <div class="items">
+
+        </div>
+
+        <div class="botones">
+
+        </div>
+    </nav>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
